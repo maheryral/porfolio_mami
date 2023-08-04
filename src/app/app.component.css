@@ -1,0 +1,23 @@
+.com {
+    animation: translationdroite 3s;
+  }
+.con{
+    animation: translationdroite 3s;
+}
+#contact{
+    margin-top: 200px;
+}
+#home{
+    animation: translationdroite 3s;
+}
+  @keyframes translationdroite {
+      from{
+         opacity: 0%;
+         
+      }
+      to{
+          opacity: 100%;
+      }
+  }
+  
+  
