@@ -19,5 +19,11 @@
           opacity: 100%;
       }
   }
+  .flou{
+    filter: blur(5px);
+  }
+  #profile{
+    margin-top: 60px;
+  }
 
   

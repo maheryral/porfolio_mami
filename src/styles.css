@@ -2,5 +2,6 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 body {
     background-image: url("./assets/fond.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }

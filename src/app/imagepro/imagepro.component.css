@@ -1,0 +1,62 @@
+#image1{
+    position: fixed;
+    top:12%;
+    left: 38%;
+    transform: scale(1.2,1.2);
+    border-radius: 10px;
+    background-color:rgb(8, 212, 212); ;
+}
+#image1 img {
+    
+    width: 350px;
+    
+}
+.podo1{
+  display: none;
+}
+.podo2{
+
+   display: block;
+   position: fixed;
+   
+ }
+ 
+  @media screen and (max-width:953px){
+    #image1{
+        top:10%;
+        left: 32%;
+    }
+  }
+  @media screen and (max-width:999px){
+    #image1{
+        top:9%;
+        left: 27%;
+    }
+  }
+  @media screen and (max-width:971px){
+    #image1{
+        top:10%;
+        left: 20%;
+    }
+  }
+  @media screen and (max-width:512px){
+    #image1{
+        top:9%;
+        left: 18%;
+    }
+  }
+  @media screen and (max-width:520px){
+    #image1{
+       width: 70%;
+       top:10%;
+       left: 14%;
+    }
+    #image1 img {
+    
+        width: 100%;
+        
+    }
+
+  }
+  
+
