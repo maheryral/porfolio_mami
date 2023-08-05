@@ -17,35 +17,46 @@
             <a class="nav-link px-5 text-light" (click)="activestyles()"  aria-current="" href="#compet">Competence</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-5 text-light" (click)="activestyles2()" aria-current="" href="#contact">Projet</a>
+            <a class="nav-link px-5 text-light" (click)="activestyles2()" aria-current="" href="#projet">Projet</a>
           </li>
           
         </ul>
       </div>
     </div>
   </nav>  
-  <div class="row bg mx-5 ms" id="home">
-    <div class="col-2"></div>
-    <div class="col mt-5">
-      <br> <br> <br> <br> <br>   
-         <h1 class="text-light">RASOLONIRINA <br> MAMI ERNEST</h1> 
-         <h3 class="text-secondary"> GRAPHIC DESIGNER </h3>
-         <br>
-         <h4 class="text-info "> 
-         
-            Je suis un graphiste et videaste à le recherche d'un emploi de graphisme ou videaste.
-            j'ai de l'experience d'un an en vidéaste  et graphisme comme freelance 
-         </h4>
+  <div class="row bg my-5 text-center" id="home">
+    <div class="col-lg-6 ">
+      <img src="../assets/mami.png" class="img-fluid w-50"  style="width: 20%;" alt="">
+     </div>
+     
+    <div class="col my-3" >
+      <div class="row">
+        <div class="col">
+          <h1 class="text-light " >RASOLONIRINA <br> MAMI ERNEST</h1> 
+          <h3 class="text-secondary"> GRAPHIC DESIGNER & VIDEASTE </h3>
+          <br>
+          <h4 class="text-info "> 
+          
+             Je suis un graphiste et videaste à le recherche d'un emploi de graphisme ou videaste.
+             j'ai de l'experience d'un an en vidéaste  et graphisme comme freelance 
+          </h4>
+        </div>
+        <div class="row">
+           <div class="col">
+            <app-contacts id="contact"></app-contacts>
+          </div>
+        </div>
+       
+      </div>
+       
     </div>
-    <div class="col-1"></div>
-   <div class="col">
-    <img src="../assets/mami.png" class="img-fluid w-75 md "  style="width: 20%;" alt="">
-   </div>
-   
+    
+    
    
  </div> 
- <app-contacts id="contact" [ngClass]="{'con':isactive2}"></app-contacts> <br> <br> <br> <br>
- <app-competence id="compet" [ngClass]="{'com':isactive}"></app-competence>
+   
+ <app-competence id="compet" [ngClass]="{'com':isactive}"></app-competence> <br> <br> <br>
+ <app-projet id="projet" [ngClass]="{'pro':isactive2}"></app-projet>
  
 </body>
 </html>
