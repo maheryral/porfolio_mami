@@ -1,14 +1,14 @@
 #image1{
     position: fixed;
     top:12%;
-    left: 38%;
+    left: 35%;
     transform: scale(1.2,1.2);
     border-radius: 10px;
-    background-color:rgb(8, 212, 212); ;
+    background-color:rgba(0, 0, 0, 0.358); ;
 }
 #image1 img {
     
-    width: 350px;
+    width: 500px;
     
 }
 .podo1{

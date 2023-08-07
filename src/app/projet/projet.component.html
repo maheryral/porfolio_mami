@@ -1,14 +1,24 @@
-<div class="text-light mx-5" id="competence">
+<div class="text-light mx-5" id="projet" [ngClass]="{'isactivestyle': isprojetactive}">
     <div class="row">
         <div class="col">
             <h3 > Projet</h3>
         </div>
     </div>
     <br> <br>
-    <div class="row" (click)="imagevue()" >
-        <div class="col-lg-6">
-            <img src="../../assets/Pologo JPG.jpg" class="w-25"  srcset="">
+    <div class="row">
+        <div class="col-6 col-md-4 col-xl-2 mx-4 my-4" (click)="imagevue('../../assets/loven.png','LOVEN')">
+            <img src="../../assets/loven.png" class="w-100"  srcset="">
         </div>
+        <div class="col-6 col-md-4 col-xl-2 mx-4 my-4" (click)="imagevue('../../assets/TAKE.jpg','TAKE')">
+            <img src="../../assets/TAKE.jpg" class="w-100"  srcset="">
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mx-4 my-4" (click)="imagevue('../../assets/ILLUSION.jpg','ILLUSION')">
+            <img src="../../assets/ILLUSION.jpg" class="w-100"  srcset="">
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mx-4 my-4" (click)="imagevue('../../assets/renah.jpg','RENAH')">
+            <img src="../../assets/renah.jpg" class="w-100"  srcset="">
+        </div>
+
         
     </div>
  </div>

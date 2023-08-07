@@ -1,0 +1,11 @@
+.isactivestyle{
+   animation: scal 900ms ;
+}
+@keyframes scal {
+    from{
+        transform: scale(0,0);
+    }
+    to{
+        transform: 1,1;
+    }
+}

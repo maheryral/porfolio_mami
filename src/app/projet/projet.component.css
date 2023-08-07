@@ -1,0 +1,23 @@
+@keyframes scal {
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(1.2,1.2);
+    }
+}
+img{
+    border-radius: 10px;
+    animation: scal 900ms infinite;
+}
+.isactivestyle{
+    animation: scal2 900ms;
+}
+@keyframes scal2 {
+    from{
+        transform: scale(0,0);
+    }
+    to{
+        transform: 1,1;
+    }
+}

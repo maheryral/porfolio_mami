@@ -24,7 +24,7 @@
       </div>
     </div>
   </nav>  
-  <div class="row bg my-5 text-center" [ngClass]="{'flou': projetvue}" id="home">
+  <div class="row bg my-5 text-center" [ngClass]="{'flou': projetvue}" id="home" >
     <div class="col-lg-6 ">
       <img src="../assets/mami.png" class="img-fluid w-50"  style="width: 20%; border-radius: 20%;" alt="">
      </div>
@@ -37,8 +37,7 @@
           <br>
           <h4 class="text-info "> 
           
-             Je suis un graphiste et videaste à le recherche d'un emploi de graphisme ou videaste.
-             j'ai de l'experience d'un an en vidéaste  et graphisme comme freelance 
+             {{affichage}}
           </h4>
         </div>
       
@@ -55,8 +54,8 @@
     
    
  </div> 
-   <br> <br> <br> <br> <br>
- <app-competence id="compet" [ngClass]="{'com':isactive}" [ngClass]="{'flou': projetvue}"></app-competence> <br> <br> <br>
+   
+ <app-competence id="compet" [ngClass]="{'com':isactive}" [ngClass]="{'flou': projetvue}"></app-competence> <br> <br>
  <app-projet id="projet" [ngClass]="{'pro':isactive2}" [ngClass]="{'flou': projetvue}"></app-projet>
  <app-imagepro></app-imagepro>
  

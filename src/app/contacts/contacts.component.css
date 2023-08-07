@@ -10,7 +10,7 @@ img{
   width: 20px;
 }
 #con{
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 @media screen and (max-width:1286px){
@@ -37,5 +37,16 @@ img{
   }
  
   
+}
+.isactivestyle{
+  animation: scal2 900ms;
+}
+@keyframes scal2 {
+  from{
+      transform: scale(0,0);
+  }
+  to{
+      transform: 1,1;
+  }
 }
 
